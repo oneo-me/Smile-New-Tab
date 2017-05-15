@@ -1,6 +1,7 @@
 chrome.browserAction.onClicked.addListener(function (tab) {
-    if (window.confirm("确定设置新的默认标签页？\n\n" + tab.url)) {
-        localStorage.url = tab.url
+    var url = prompt("设置以下链接为默认标签页？", tab.url)
+    if (url != null) {
+        localStorage.url = url
     }
 })
 
