@@ -1,2 +1,12 @@
 # Smile-New-Tab
-Chrome 插件，方便的自定义默认新建标签页的网站
+方便的自定义默认新建标签页的网站
+
+
+
+## 截图
+
+![screenshot](store/screenshot.png)
+
+## 下载地址
+
+[Chrome 商店](https://chrome.google.com/webstore/detail/mgoebbocljfhjgcdmcdgdifpaaglniop)
