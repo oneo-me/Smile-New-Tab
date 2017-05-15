@@ -4,15 +4,11 @@ chrome.browserAction.onClicked.addListener(function (tab) {
     }
 })
 
-
 chrome.tabs.onCreated.addListener(onCreated)
 
 function onCreated(tab) {
     if (tab.url == "chrome://newtab/") {
-        if (localStorage.url == null) {
-            localStorage.url = "http://oneo.me"
-        }
-        chrome.tabs.update(tab.id, { url: localStorage.url, selected: true })
+        chrome.tabs.update(tab.id, { url: localStorage.url || "https://www.google.com", selected: true })
     }
 }
 

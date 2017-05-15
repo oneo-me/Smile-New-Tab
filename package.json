@@ -1,6 +1,6 @@
 {
     "name": "smile-new-tab",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "author": "ONEO <1217950746@qq.com>",
     "scripts": {
         "dev": "webpack --watch --progress --hide-modules",
