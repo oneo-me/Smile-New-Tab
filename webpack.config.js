@@ -30,9 +30,10 @@ var manifest = package.manifest
 manifest.name = package.displayName
 manifest.description = package.description
 manifest.version = package.version
-manifest.browser_action = {
-    default_icon: "icon.png"
+if (manifest.browser_action == null) {
+    manifest.browser_action = {}
 }
+manifest.browser_action.default_icon = "icon.png"
 manifest.icons = {
     "16": "icon.png",
     "48": "icon.png",
@@ -43,7 +44,6 @@ fs.writeJSONSync(path.resolve(__dirname, "./build/manifest.json"), manifest, { s
 
 // build
 if (process.env.NODE_ENV == "production") {
-    webpackConfig.plugins.push(new webpack.DefinePlugin({ "process.env": { NODE_ENV: "production" } }))
     webpackConfig.plugins.push(new webpack.LoaderOptionsPlugin({ minimize: true }))
     webpackConfig.plugins.push(new webpack.optimize.UglifyJsPlugin({ compress: { warnings: false } }))
     webpackConfig.plugins.push(new webpack.ProgressPlugin(function (percentage, msg) {
