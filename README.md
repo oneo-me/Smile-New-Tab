@@ -1,11 +1,9 @@
 # Smile-New-Tab
 方便的自定义默认新建标签页的网站
 
-
-
 ## 截图
 
-![screenshot](store/screenshot.png)
+![截图](store/screenshot.png)
 
 ## 下载地址
 

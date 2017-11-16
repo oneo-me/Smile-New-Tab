@@ -1,0 +1,25 @@
+{
+    "name": "Smile New Tab",
+    "description": "简单的修改默认的新建标签页",
+    "version": "1.1.0",
+    "icons": {
+        "16": "icon.png",
+        "48": "icon.png",
+        "128": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "background": {
+        "scripts": [
+            "background.js"
+        ]
+    },
+    "chrome_url_overrides": {
+        "newtab": "index.html"
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "manifest_version": 2
+}
