@@ -8,7 +8,8 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 chrome.tabs.onCreated.addListener(onCreated)
 
 function onCreated(tab) {
-	if (tab.url === 'chrome://newtab/' || tab.url === 'edge://newtab/') {
+    console.log(tab)
+	if (tab.pendingUrl === 'chrome://newtab/' || tab.pendingUrl === 'edge://newtab/') {
 		chrome.tabs.update(tab.id, {
 			url: localStorage.url || 'https://www.google.com',
 			selected: true
