@@ -1,5 +1,5 @@
 chrome.browserAction.onClicked.addListener(function(tab) {
-	var url = prompt('设置以下链接为默认标签页？', tab.url)
+	var url = prompt('设置以下链接为默认标签页？', tab.url || tab.pendingUrl)
 	if (url != null) {
 		localStorage.url = url
 	}
@@ -8,8 +8,8 @@ chrome.browserAction.onClicked.addListener(function(tab) {
 chrome.tabs.onCreated.addListener(onCreated)
 
 function onCreated(tab) {
-    console.log(tab)
-	if (tab.pendingUrl === 'chrome://newtab/' || tab.pendingUrl === 'edge://newtab/') {
+	var url = tab.url || tab.pendingUrl
+	if (url === 'chrome://newtab/' || url === 'edge://newtab/') {
 		chrome.tabs.update(tab.id, {
 			url: localStorage.url || 'https://www.google.com',
 			selected: true
