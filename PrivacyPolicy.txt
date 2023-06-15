@@ -1,0 +1,51 @@
+隐私政策/Privacy Policy
+
+感谢您使用我们的 Chrome 扩展程序。我们非常重视用户的隐私和数据保护。在此隐私政策中，我们将向您说明我们的扩展程序如何处理和保护您的个人数据。
+
+Thank you for using our Chrome extension. We value your privacy and are committed to protecting your personal information. In this privacy policy, we will explain how our extension handles and safeguards your personal data.
+
+数据收集/Data Collection
+
+我们的扩展程序不收集任何与个人身份相关的信息。我们不会要求您提供任何个人信息，也不会自动收集任何个人数据。
+
+Our extension does not collect any personally identifiable information. We do not require you to provide any personal information, nor do we automatically collect any personal data.
+
+数据使用/Data Usage
+
+由于我们的扩展程序不收集个人数据，因此我们不会将任何用户数据用于任何目的。
+
+As our extension does not collect personal data, we do not use any user data for any purpose.
+
+数据共享/Data Sharing
+
+由于我们的扩展程序不收集个人数据，因此我们不会与任何第三方共享任何用户数据。
+
+As our extension does not collect personal data, we do not share any user data with any third parties.
+
+Cookie 和类似技术/Cookies and Similar Technologies
+
+我们的扩展程序不使用任何 Cookie 或类似的跟踪技术。
+
+Our extension does not use any cookies or similar tracking technologies.
+
+用户权利/User Rights
+
+由于我们的扩展程序不收集个人数据，因此您无需担心与您的个人数据相关的权利。
+
+As our extension does not collect personal data, you do not need to be concerned about any rights related to your personal data.
+
+更新隐私政策/Updating Privacy Policy
+
+我们保留在必要时更新本隐私政策的权利。如果有任何更改，我们将在扩展程序中提供通知。
+
+We reserve the right to update this privacy policy as necessary. If there are any changes, we will provide notice within the extension.
+
+联系我们/Contact Us
+
+如果您对本隐私政策有任何疑问或关注，请通过以下方式与我们联系：
+
+If you have any questions or concerns about this privacy policy, please contact us at:
+
+https://github.com/oneo-me/Smile-New-Tab/issues
+
+
