@@ -11,7 +11,7 @@ function onCreated(tab) {
 	var url = tab.url || tab.pendingUrl
 	if (url === 'chrome://newtab/' || url === 'edge://newtab/') {
 		chrome.tabs.update(tab.id, {
-			url: localStorage.url || 'https://www.google.com',
+			url: localStorage.url || 'https://www.google.com/ncr',
 			selected: true
 		})
 	}
